@@ -4637,10 +4637,10 @@ react-native-codegen@^0.0.6:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
-react-native-dnd-board@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/react-native-dnd-board/-/react-native-dnd-board-0.0.5.tgz#2b84331ff4e354b4d4c8bc812dc27d59d8d009d4"
-  integrity sha512-J8UdWApPZO99AN7FIwkey7OgwGRW09ew9bMFEthk4swuZdYBc5XFcJZaBrDHiBkSCtkor71Spk0btAkqy6+1ew==
+react-native-dnd-board@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/react-native-dnd-board/-/react-native-dnd-board-0.0.7.tgz#b2b608ef4a863960604fd59243d32c1c43861e85"
+  integrity sha512-KSsiEMAwggvqq96zkbRCz6LyPz/+RqR5ubvMPx82khj9PsI2rk4/4LKaSz/18TNmdhDWxlDnmiMFPErbiIuNlw==
   dependencies:
     react-native-gesture-handler "^1.10.0"
     react-native-reanimated "^1.13.2"

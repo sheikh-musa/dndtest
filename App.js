@@ -68,6 +68,31 @@ const mockData = [
 	},
 ];
 
+const data2 = [
+	{
+		id: "1",
+		name: "Column 1",
+		rows: [
+			{
+				id: "11",
+				name: "Row 1 (Column 1)",
+			},
+			{
+				id: "12",
+				name: "Row 2 (Column 1)",
+			},
+			{
+				id: "13",
+				name: "Row 3 (Column 1)",
+			},
+			{
+				id: "14",
+				name: "Row 4 (Column 1)",
+			},
+		],
+	},
+];
+
 let mockDataLength = mockData.length;
 let mockDataRowLength = {};
 mockData.forEach((column) => {
@@ -182,7 +207,8 @@ const App = () => {
 	};
 
 	const onDragEnd = (fromColumnId, toColumnId, card) => {
-		//
+		// repository.updateData(data2);
+		console.log(repository);
 	};
 
 	return (
